@@ -1,0 +1,674 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head {
+  width: 100%;
+  overflow: hidden;
+}
+
+.top {
+  width: 100%;
+  height: 34px;
+  background: url(../img/top.jpg);
+}
+
+.top .top-middle {
+  width: 1260px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+.top .top-middle .top-left {
+  float: left;
+}
+
+.top .top-middle .top-left a {
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+}
+
+.top .top-middle .top-left a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.top .top-middle .top-right {
+  float: right;
+}
+
+.top .top-middle .top-right a {
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.top .top-middle .top-right a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.top .top-middle .top-right a:nth-child(1),
+.top .top-middle .top-right a:nth-child(2) {
+  color: red;
+}
+
+.top .top-middle .top-right a:last-child {
+  padding-left: 20px;
+  background: url(../img/spirit.png) -10px -76px no-repeat;
+}
+
+.logo {
+  width: 100%;
+  height: 130px;
+  background: url(../img/topbg.jpg) center no-repeat;
+}
+
+.logo .logbar {
+  width: 1364px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.logo .logbar .dnflogo {
+  margin-left: 100px;
+  display: block;
+  width: 258px;
+  height: 130px;
+  float: left;
+  background: url(../img/dnflogo.png) no-repeat left center;
+}
+
+.logo .search {
+  height: 46px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 38px;
+}
+
+.logo .search .soso {
+  width: 322px;
+  overflow: hidden;
+}
+
+.logo .search .soso input:nth-child(1) {
+  padding: 2px 4px 2px 4px;
+  border: 1px solid #e00011;
+  font-size: 14px;
+  width: 260px;
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  vertical-align: middle;
+  margin: 0px;
+  border-right: 0px;
+  background: none;
+}
+
+.logo .search .soso input:nth-child(2) {
+  width: 42px;
+  height: 38px;
+  background: url(../img/spirit2.png) no-repeat -10px -18px #e00011;
+  vertical-align: middle;
+  color: #797979;
+  margin: -5px;
+  padding: 0px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.logo .search .soso a {
+  display: block;
+  float: left;
+  color: #f00;
+  padding-right: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 550;
+}
+
+.logo .search .soso a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  width: 100%;
+  height: 60px;
+  background: #bf040f;
+}
+
+.menu .menubar {
+  width: 1120px;
+  height: 60px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.menu .menubar li {
+  float: left;
+  display: block;
+  line-height: 60px;
+  float: left;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bolder;
+  padding: 0px 30px;
+  background: url(../img/xian.png) right center no-repeat;
+}
+
+.menu .menubar li a {
+  color: #fff;
+}
+
+.menu .menubar li a:hover {
+  color: #fffb80;
+  text-decoration: underline;
+}
+
+.menu .menubar li:nth-child(1) {
+  background: url(../img/spirit2.png) -20px -52px no-repeat;
+}
+
+.bottom {
+  width: 100%;
+  background: #f4f4f4;
+  padding-top: 50px;
+}
+
+.bottom .bottom-logo {
+  width: 1120px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bottom .bottom-fuwu {
+  margin-top: 50px;
+  width: 100%;
+  height: 80px;
+  background: #dedede;
+}
+
+.bottom .bottom-fuwu ul {
+  width: 960px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bottom .bottom-fuwu li {
+  padding: 0 80px;
+  float: left;
+  height: 80px;
+}
+
+.bottom .bottom-fuwu li p {
+  margin-top: -10px;
+  font-size: 16px;
+  color: #7a7575;
+}
+
+.bottom .bottom-fuwu li:nth-child(1) {
+  background: url(../img/bottombg.png) no-repeat 0 -246px;
+}
+
+.bottom .bottom-fuwu li:nth-child(2) {
+  background: url(../img/bottombg.png) no-repeat 0 0;
+}
+
+.bottom .bottom-fuwu li:nth-child(3) {
+  background: url(../img/bottombg.png) no-repeat 0 -79px;
+}
+
+.bottom .bottom-help {
+  padding-top: 40px;
+  background: #fff;
+}
+
+.bottom .bottom-help .bottom-bar {
+  width: 1120px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+.bottom .bottom-help ul {
+  width: 1120px;
+  height: 180px;
+  margin: 0 auto;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.bottom .bottom-help li {
+  padding: 0 2px;
+  width: 186px;
+  float: left;
+}
+
+.bottom .bottom-help li a {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.bottom .bottom-help li a:hover {
+  text-decoration: underline;
+}
+
+.bottom .bottom-help li p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.bottom .bottom-help .size {
+  color: black;
+  font-size: 16px;
+}
+
+.bottom .bottom-help li:last-child {
+  width: 210px;
+  height: 150px;
+  border-left: 1px solid #dedede;
+  margin-left: 28px;
+  position: relative;
+}
+
+.bottom .bottom-help li:last-child div {
+  position: absolute;
+  width: 126px;
+  height: 30px;
+  padding-top: 124px;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  background: url(../img/bottombg.png) -9px -416px no-repeat;
+  left: 30px;
+  top: 0px;
+}
+
+.bottom .bottom-help .bottom-feader {
+  width: 1120px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.bottom .bottom-help .bottom-feader div {
+  width: 518px;
+  padding-left: 248px;
+  padding-top: 30px;
+  line-height: 18px;
+  color: #333;
+  margin: 0px auto;
+  background: url(../img/bottombg.png) -8px -308px no-repeat;
+}
+
+.cart-bg {
+  width: 100%;
+  height: auto;
+  background: url(../img/zhucebg.jpg) no-repeat center center;
+  padding-bottom: 50px;
+}
+
+.expressage {
+  width: 1120px;
+  height: 60px;
+  margin: 0 auto;
+  background: black;
+}
+
+.expressage span {
+  width: 160px;
+  height: 60px;
+  display: block;
+  float: left;
+}
+
+.expressage span:nth-child(1) {
+  text-align: center;
+  line-height: 60px;
+  background: #a01f23;
+  display: block;
+  float: left;
+  font-size: 18px;
+  color: #FFF;
+  font-weight: bolder;
+}
+
+.expressage span:nth-child(2) {
+  width: 610px;
+  text-align: center;
+  line-height: 60px;
+  background: url(../img/gouwuliucheng.jpg) no-repeat 0px 0px;
+  margin-left: 16px;
+}
+
+.expressage span:nth-child(3) {
+  float: right;
+  width: 190px;
+  text-align: center;
+  line-height: 60px;
+  background: url(../img/gouwuliuchengbg.gif) no-repeat 0px 0px;
+}
+
+.cart-list {
+  background: #fff;
+  width: 1120px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.cart-list .ul-1 {
+  padding-left: 0;
+  width: 100%;
+  height: 46px;
+  background: #e7e7e7;
+  color: #000;
+  margin: 0;
+}
+
+.cart-list .ul-1 li {
+  float: left;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.cart-list .ul-1 .li-1 {
+  width: 60px;
+  text-align: right;
+  background: url(../img/kong.jpg) no-repeat 10px center;
+  cursor: pointer;
+}
+
+.cart-list .ul-1 .li-2 {
+  text-align: left;
+  text-indent: 20px;
+  width: 420px;
+}
+
+.cart-list .ul-1 .li-3 {
+  width: 180px;
+}
+
+.cart-list .ul-1 .li-4 {
+  width: 180px;
+}
+
+.cart-list .ul-1 .li-5 {
+  width: 110px;
+}
+
+.cart-list .ul-1 .li-6 {
+  width: 150px;
+}
+
+.cart-list .lists {
+  background: white;
+}
+
+.cart-list .box-list ul {
+  padding: 10px 0;
+  padding-left: 0;
+  border-bottom: 1px solid #e7e7e7;
+  width: 1120px;
+  background: white;
+  overflow: hidden;
+  margin: 0;
+}
+
+.cart-list .box-list ul li {
+  position: relative;
+  height: 128px;
+  float: left;
+  text-align: center;
+}
+
+.cart-list .box-list ul li:nth-child(1) {
+  width: 60px;
+}
+
+.cart-list .box-list ul li:nth-child(1) div {
+  width: 26px;
+  height: 26px;
+  background: url(../img/kong.jpg) center center no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -16px;
+  cursor: pointer;
+}
+
+.cart-list .box-list ul li:nth-child(2) {
+  width: 420px;
+}
+
+.cart-list .box-list ul li:nth-child(2) .a-img {
+  width: 88px;
+  height: 112px;
+  float: left;
+  display: block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.cart-list .box-list ul li:nth-child(2) img {
+  max-width: 88px;
+  max-height: 112px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+}
+
+.cart-list .box-list ul li:nth-child(2) .select {
+  height: 76px;
+  width: 280px;
+  color: #555;
+  line-height: 20px;
+  padding-top: 20px;
+  float: left;
+}
+
+.cart-list .box-list ul li:nth-child(2) .select a {
+  display: block;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.cart-list .box-list ul li:nth-child(2) .select a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.cart-list .box-list ul li:nth-child(2) .select span {
+  display: block;
+  text-align: left;
+}
+
+.cart-list .box-list ul li:nth-child(3) {
+  line-height: 20px;
+  width: 180px;
+}
+
+.cart-list .box-list ul li:nth-child(3) span {
+  display: block;
+}
+
+.cart-list .box-list ul li:nth-child(3) span:nth-child(1) {
+  font-size: 16px;
+  padding: 40px 0 10px 0;
+}
+
+.cart-list .box-list ul li:nth-child(3) span:nth-child(2) {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.cart-list .box-list ul li:nth-child(4) {
+  width: 180px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.cart-list .box-list ul li:nth-child(4) span {
+  float: left;
+  color: #555;
+  display: block;
+}
+
+.cart-list .box-list ul .list-number {
+  overflow: hidden;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+.cart-list .box-list ul input {
+  height: 24px;
+  line-height: 24px;
+  width: 48px;
+  font-size: 14px;
+  text-align: center;
+  border: 0px;
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+
+.cart-list .box-list ul li:nth-child(5) {
+  width: 110px;
+}
+
+.cart-list .box-list ul li:nth-child(5) p {
+  padding-top: 35px;
+  color: #a01f23;
+  font-size: 16px;
+}
+
+.cart-list .box-list ul li:nth-child(6) {
+  position: relative;
+  display: block;
+  width: 150px;
+}
+
+.cart-list .box-list ul li:nth-child(6) div {
+  position: absolute;
+  top: 40%;
+  right: 10px;
+}
+
+.cart-list .box-list ul li:nth-child(6) a {
+  color: #666;
+  padding-right: 10px;
+}
+
+.cart-list .box-list ul li:nth-child(6) a:hover {
+  text-decoration: underline;
+}
+
+.cart-list .remove {
+  border-bottom: 1px solid #e7e7e7;
+  padding: 20px;
+  background: #fff;
+}
+
+.cart-list .remove a {
+  color: #a01f23;
+  text-decoration: underline;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.cart-list .remove p {
+  padding-top: 2px;
+  margin: 0;
+  float: right;
+  color: #666;
+}
+
+.cart-list .prices {
+  height: 44px;
+  padding-top: 22px;
+  background: #e7e7e7;
+  position: relative;
+  margin-top: 20px;
+}
+
+.cart-list .prices .left {
+  float: left;
+  background: url(../img/duihao.jpg) left 4px no-repeat;
+  height: 22px;
+  line-height: 22px;
+  text-indent: 22px;
+  font-size: 14px;
+  color: #a01f23;
+  margin-left: 20px;
+}
+
+.cart-list .prices .right {
+  float: right;
+}
+
+.cart-list .prices .right .prices-number {
+  position: absolute;
+  right: 250px;
+  top: 26px;
+}
+
+.cart-list .prices .right .prices-number span {
+  padding-left: 20px;
+}
+
+.cart-list .prices .right .prices-number span:nth-child(1) {
+  color: #a01f23;
+}
+
+.cart-list .prices .right .prices-number span:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  color: #a01f23;
+}
+
+.cart-list .prices .right a {
+  width: 220px;
+  height: 66px;
+  line-height: 66px;
+  color: #FFF;
+  display: block;
+  background: #a01f23;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
