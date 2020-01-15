@@ -1,0 +1,18 @@
+#twoimages {
+    width: 100%;
+    div {
+        width: 1140px;
+        height: 325px;
+        margin: 0 auto;
+        img:nth-child(1) {
+            width: 562px;
+            height: 295px;
+            float: left;
+        }
+        img:nth-child(2) {
+            width: 562px;
+            height: 295px;
+            float: right;
+        }
+    }
+}

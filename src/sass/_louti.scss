@@ -1,0 +1,30 @@
+#louti {
+    width: 60px;
+    height: 243px;
+    position: fixed;
+    top: 350px;
+    right: 0px;
+    font-size: 25px;
+    li:nth-child(1) {
+        border-radius: 5px 0 0 0;
+    }
+    li {
+        width: 60px;
+        height: 60px;
+        background-color: black;
+        margin-bottom: 1px;
+        // border-radius: 5px;
+        line-height: 60px;
+        color: white;
+        list-style: none;
+        text-align: center;
+        img {
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+    li:nth-child(4) {
+        border-radius: 0 0 0 5px;
+    }
+}

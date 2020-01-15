@@ -1,0 +1,28 @@
+{
+    "name": "thenorthface",
+    "version": "1.0.0",
+    "description": "北面官方商店项目",
+    "main": "index.js",
+    "scripts": {
+        "webpack": "webpack --progress --display-modules --colors --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lantian1314/TheNorthFace.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lantian1314/TheNorthFace/issues"
+    },
+    "homepage": "https://github.com/lantian1314/TheNorthFace#readme",
+    "devDependencies": {
+        "expose-loader": "^0.7.5",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    },
+    "dependencies": {
+        "jquery": "^1.12.4"
+    }
+}

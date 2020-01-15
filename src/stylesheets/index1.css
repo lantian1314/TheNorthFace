@@ -1,0 +1,795 @@
+/* line 5, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby26-x64/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/index1.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/_top.scss */
+#logodiv {
+  width: 100%;
+  position: relative;
+  z-index: 1000000;
+}
+/* line 6, ../sass/_top.scss */
+#logodiv .warp {
+  width: 1349px;
+  margin: 0 auto;
+}
+/* line 9, ../sass/_top.scss */
+#logodiv .warp .logoleft {
+  float: left;
+}
+/* line 12, ../sass/_top.scss */
+#logodiv .warp .logoright {
+  float: left;
+}
+/* line 14, ../sass/_top.scss */
+#logodiv .warp .logoright .top {
+  width: 1249px;
+  height: 40px;
+  background: #222222;
+}
+/* line 19, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li {
+  text-align: center;
+  float: left;
+  line-height: 40px;
+  padding: 0 20px;
+  font-size: 12px;
+}
+/* line 25, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li a {
+  text-decoration: none;
+}
+/* line 29, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(1) {
+  background-color: white;
+  font-size: 12px;
+  padding: 0 20px 0 0;
+}
+/* line 33, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(1) a {
+  color: #585858;
+}
+/* line 37, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(2) {
+  line-height: 40px;
+}
+/* line 39, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(2) a {
+  color: white;
+}
+/* line 42, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(2) a:hover {
+  color: #767676;
+}
+/* line 46, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(3) {
+  font-weight: bold;
+}
+/* line 48, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(3) a {
+  color: #ffffff;
+}
+/* line 51, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(3) span {
+  color: red;
+}
+/* line 56, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(3):hover span {
+  color: #d11212;
+}
+/* line 59, ../sass/_top.scss */
+#logodiv .warp .logoright .top .oneul li:nth-child(3):hover a {
+  color: #f7cccc;
+}
+/* line 65, ../sass/_top.scss */
+#logodiv .warp .logoright .top .twoul li {
+  padding: 0 20px;
+  float: right;
+  line-height: 40px;
+  font-size: 12px;
+  color: #c7c7c7;
+}
+/* line 72, ../sass/_top.scss */
+#logodiv .warp .logoright .top .twoul li:nth-child(1) {
+  background-color: #f7f7f7;
+  color: black;
+}
+/* line 76, ../sass/_top.scss */
+#logodiv .warp .logoright .top .twoul li:nth-child(4):hover {
+  color: #f7f7f7;
+}
+/* line 80, ../sass/_top.scss */
+#logodiv .warp .logoright .top .twoul li:nth-child(5) a {
+  color: #c7c7c7;
+}
+/* line 84, ../sass/_top.scss */
+#logodiv .warp .logoright .top .twoul li:nth-child(5) a:hover {
+  color: #f7f7f7;
+}
+/* line 87, ../sass/_top.scss */
+#logodiv .warp .logoright .top .twoul li:nth-child(3):hover {
+  background-color: #f7f7f7;
+}
+/* line 90, ../sass/_top.scss */
+#logodiv .warp .logoright .top .twoul li:nth-child(2):hover {
+  background-color: #f7f7f7;
+}
+/* line 95, ../sass/_top.scss */
+#logodiv .warp .logoright .topButtom {
+  background-color: white;
+  width: 1249px;
+  height: 40px;
+  border-bottom: 1px solid #f7f7f7;
+}
+/* line 100, ../sass/_top.scss */
+#logodiv .warp .logoright .topButtom .topleft {
+  background-color: white;
+}
+/* line 106, ../sass/_top.scss */
+#logodiv .warp .logoright .topButtom .topleft ul li {
+  float: left;
+  padding: 0 25px;
+  line-height: 40px;
+  font-size: 16px;
+  background-color: white;
+}
+/* line 113, ../sass/_top.scss */
+#logodiv .warp .logoright .topButtom .topleft ul li:hover {
+  background: #f7f7f7;
+}
+/* line 118, ../sass/_top.scss */
+#logodiv .warp .logoright .topButtom .topright {
+  border-radius: 3px;
+  width: 414px;
+  height: 30px;
+  float: right;
+  margin-right: 10px;
+  background: #e2e2e2;
+  position: relative;
+  margin-top: 6px;
+}
+/* line 128, ../sass/_top.scss */
+#logodiv .warp .logoright .topButtom .topright div span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+}
+/* line 135, ../sass/_top.scss */
+#logodiv .warp .logoright .topButtom .topright input {
+  border: none;
+  background: #e2e2e2;
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  width: 350px;
+  outline: none;
+}
+
+/* line 1, ../sass/_none.scss */
+#none {
+  display: none;
+  width: 100%;
+  height: 340px;
+  background-color: #f7f7f7;
+  position: fixed;
+  z-index: 10000000;
+  top: 80px;
+}
+/* line 9, ../sass/_none.scss */
+#none div {
+  width: 1349px;
+  margin: 0 auto;
+  transform: 1s;
+}
+/* line 13, ../sass/_none.scss */
+#none div div {
+  padding-top: 35px;
+  padding-left: 90px;
+}
+/* line 16, ../sass/_none.scss */
+#none div div ul {
+  float: left;
+  padding: 10px 20px;
+  border-right: 1px solid #e5e5e5;
+}
+/* line 20, ../sass/_none.scss */
+#none div div ul li {
+  padding: 0 30px;
+  font-size: 12px;
+  line-height: 20px;
+}
+/* line 25, ../sass/_none.scss */
+#none div div ul li:nth-child(1) {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* line 1, ../sass/_tips.scss */
+#tips {
+  clear: both;
+  width: 100%;
+  height: 32px;
+  background-color: #efefef;
+}
+/* line 6, ../sass/_tips.scss */
+#tips div {
+  width: 1349px;
+  margin: 0 auto;
+}
+/* line 9, ../sass/_tips.scss */
+#tips div span,
+#tips div p {
+  display: inline;
+  line-height: 32px;
+  font-size: 12px;
+  color: #5d5d5d;
+}
+/* line 16, ../sass/_tips.scss */
+#tips div span {
+  margin-left: 105px;
+}
+
+/* line 1, ../sass/_topimages.scss */
+#topimages {
+  width: 100%;
+}
+/* line 3, ../sass/_topimages.scss */
+#topimages div {
+  width: 1349px;
+  height: 421px;
+  margin: 0 auto;
+}
+/* line 7, ../sass/_topimages.scss */
+#topimages div img {
+  width: 1349px;
+  height: 421px;
+}
+
+/* line 1, ../sass/_bigimages.scss */
+#bigimages {
+  width: 100%;
+}
+/* line 3, ../sass/_bigimages.scss */
+#bigimages div {
+  width: 1349px;
+  margin: 0 auto;
+}
+/* line 6, ../sass/_bigimages.scss */
+#bigimages div div {
+  width: 1140px;
+  height: 365px;
+  margin: 20px auto;
+}
+
+/* line 1, ../sass/_twoimages.scss */
+#twoimages {
+  width: 100%;
+}
+/* line 3, ../sass/_twoimages.scss */
+#twoimages div {
+  width: 1140px;
+  height: 325px;
+  margin: 0 auto;
+}
+/* line 7, ../sass/_twoimages.scss */
+#twoimages div img:nth-child(1) {
+  width: 562px;
+  height: 295px;
+  float: left;
+}
+/* line 12, ../sass/_twoimages.scss */
+#twoimages div img:nth-child(2) {
+  width: 562px;
+  height: 295px;
+  float: right;
+}
+
+/* line 1, ../sass/_tab.scss */
+#tab {
+  width: 100%;
+}
+/* line 4, ../sass/_tab.scss */
+#tab .manorwoman {
+  width: 1140px;
+  height: 60px;
+  margin: 10px auto;
+}
+/* line 8, ../sass/_tab.scss */
+#tab .manorwoman ul {
+  width: 350px;
+  height: 60px;
+  margin: 0 auto;
+}
+/* line 12, ../sass/_tab.scss */
+#tab .manorwoman ul li {
+  display: inline;
+  line-height: 60px;
+  color: #767676;
+  font-size: 16px;
+  padding: 0 50px;
+}
+/* line 22, ../sass/_tab.scss */
+#tab .photo {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* line 25, ../sass/_tab.scss */
+#tab .photo .manul {
+  position: relative;
+  display: block;
+}
+/* line 28, ../sass/_tab.scss */
+#tab .photo .manul li {
+  float: left;
+  margin: 0 5px;
+}
+/* line 31, ../sass/_tab.scss */
+#tab .photo .manul li img {
+  width: 275px;
+  height: 527px;
+}
+/* line 37, ../sass/_tab.scss */
+#tab .photo .womanul {
+  position: relative;
+  display: none;
+}
+/* line 40, ../sass/_tab.scss */
+#tab .photo .womanul li {
+  float: left;
+  margin: 0 5px;
+}
+/* line 43, ../sass/_tab.scss */
+#tab .photo .womanul li img {
+  width: 275px;
+  height: 527px;
+}
+
+/* line 1, ../sass/_best.scss */
+#best {
+  clear: both;
+  width: 100%;
+  position: relative;
+}
+/* line 6, ../sass/_best.scss */
+#best .test {
+  width: 1140px;
+  height: 22px;
+  margin: 0 auto;
+  padding: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+/* line 16, ../sass/_best.scss */
+#best div:nth-child(2) {
+  width: 1140px;
+  height: 402px;
+  margin: 0 auto;
+}
+/* line 20, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) {
+  display: block;
+}
+/* line 22, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) li {
+  float: left;
+  width: 238px;
+  height: 320px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 0 15px 0 0;
+  font-size: #767676;
+}
+/* line 31, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) li a h2 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #000000;
+}
+/* line 37, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) li a img {
+  width: 238px;
+  height: 238px;
+}
+/* line 41, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) li a div {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 45, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) li a div span {
+  color: #ff0000;
+  font-weight: bold;
+}
+/* line 49, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) li a div s {
+  color: #c7c7c7;
+}
+/* line 55, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(1) li:nth-child(4) {
+  padding-right: none;
+}
+/* line 59, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) {
+  display: none;
+}
+/* line 61, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li {
+  float: left;
+  width: 238px;
+  height: 320px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 0 15px 0 0;
+  font-size: #767676;
+}
+/* line 69, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li a {
+  text-decoration: none;
+}
+/* line 71, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li a h2 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000000;
+}
+/* line 78, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li a img {
+  width: 238px;
+  height: 238px;
+}
+/* line 82, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li a div {
+  margin-top: 28px;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 86, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li a div span {
+  color: #ff0000;
+  font-weight: bold;
+}
+/* line 90, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li a div s {
+  color: #c7c7c7;
+}
+/* line 96, ../sass/_best.scss */
+#best div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
+  padding-right: none;
+}
+/* line 102, ../sass/_best.scss */
+#best .wangleft {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  color: #ddd;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+  position: absolute;
+  top: 250px;
+  left: 30px;
+}
+/* line 116, ../sass/_best.scss */
+#best .wangright {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ddd;
+  border-radius: 50%;
+  color: #ddd;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+  position: absolute;
+  top: 250px;
+  right: 30px;
+}
+/* line 129, ../sass/_best.scss */
+#best .bottomdiv {
+  width: 100%;
+  height: 16px;
+}
+/* line 133, ../sass/_best.scss */
+#best .bottomdiv div {
+  width: 40px;
+  height: 16px;
+  margin: 0 auto;
+}
+/* line 138, ../sass/_best.scss */
+#best .bottomdiv div .lileft {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: yellow;
+  margin-bottom: 50px;
+}
+/* line 146, ../sass/_best.scss */
+#best .bottomdiv div .liright {
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+  background-color: yellow;
+}
+/* line 154, ../sass/_best.scss */
+#best .dian {
+  clear: both;
+  width: 100%;
+}
+/* line 157, ../sass/_best.scss */
+#best .dian .dianin {
+  background-color: yellow;
+}
+/* line 159, ../sass/_best.scss */
+#best .dian .dianin .dianleft {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+/* line 165, ../sass/_best.scss */
+#best .dian .dianin .dianright {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+/* line 1, ../sass/_logo.scss */
+#logo {
+  width: 100%;
+  height: 247px;
+  background-color: #f9f9f9;
+}
+/* line 6, ../sass/_logo.scss */
+#logo .center {
+  width: 1140px;
+  height: 242px;
+  margin: 0 auto;
+}
+/* line 10, ../sass/_logo.scss */
+#logo .center div:nth-child(1) {
+  width: 470px;
+  height: 77px;
+  text-align: center;
+  padding-top: 50px;
+}
+/* line 15, ../sass/_logo.scss */
+#logo .center div:nth-child(1) img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+/* line 20, ../sass/_logo.scss */
+#logo .center div:nth-child(1) span {
+  display: block;
+  padding: 20px 0;
+  color: #767676;
+  font-size: 14px;
+}
+/* line 26, ../sass/_logo.scss */
+#logo .center div:nth-child(1) p {
+  text-align: center;
+  margin: 0;
+  word-spacing: 8px;
+  font-size: 14px;
+  color: #767676;
+  font-weight: bold;
+}
+/* line 35, ../sass/_logo.scss */
+#logo .center div:nth-child(2) {
+  width: 500px;
+  height: 123px;
+  float: right;
+}
+/* line 39, ../sass/_logo.scss */
+#logo .center div:nth-child(2) img {
+  width: 240px;
+  height: 113px;
+  text-align: center;
+  margin-top: -60px;
+}
+
+/* line 1, ../sass/_footer.scss */
+#footer {
+  width: 100%;
+  height: 420px;
+  margin: 0 auto;
+  background: black;
+}
+/* line 6, ../sass/_footer.scss */
+#footer .newfooter {
+  width: 900px;
+  height: 338px;
+  margin: 0 224px;
+  padding: 60px 0 0;
+}
+/* line 11, ../sass/_footer.scss */
+#footer .newfooter .footertop {
+  width: 900px;
+  height: 260px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #373737;
+}
+/* line 16, ../sass/_footer.scss */
+#footer .newfooter .footertop .topleft {
+  width: 630px;
+  height: 219px;
+  float: left;
+}
+/* line 20, ../sass/_footer.scss */
+#footer .newfooter .footertop .topleft div {
+  float: left;
+  width: 126px;
+  height: 219px;
+  color: #707070;
+  font-size: 12px;
+}
+/* line 26, ../sass/_footer.scss */
+#footer .newfooter .footertop .topleft div .inli {
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+/* line 30, ../sass/_footer.scss */
+#footer .newfooter .footertop .topleft div li {
+  margin: 0 0 10px;
+}
+/* line 35, ../sass/_footer.scss */
+#footer .newfooter .footertop .topright {
+  width: 270px;
+  height: 219px;
+  float: left;
+}
+/* line 40, ../sass/_footer.scss */
+#footer .newfooter .footertop .topright .righttop {
+  width: 270px;
+  height: 141px;
+}
+/* line 43, ../sass/_footer.scss */
+#footer .newfooter .footertop .topright .righttop div {
+  float: left;
+  padding: 0 20px;
+  color: #707070;
+  font-size: 12px;
+}
+/* line 48, ../sass/_footer.scss */
+#footer .newfooter .footertop .topright .righttop div img {
+  width: 95px;
+  height: 95px;
+}
+/* line 52, ../sass/_footer.scss */
+#footer .newfooter .footertop .topright .righttop div p {
+  margin: 10px 0 0;
+}
+/* line 60, ../sass/_footer.scss */
+#footer .newfooter .footertop .topright .rightbottom {
+  width: 270px;
+  height: 40px;
+  margin: 20px 0 0;
+}
+/* line 65, ../sass/_footer.scss */
+#footer .newfooter .footertop .topright .rightbottom div {
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #707070;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: #707070;
+  line-height: 38px;
+}
+/* line 79, ../sass/_footer.scss */
+#footer .newfooter .footerbottom {
+  width: 900px;
+  height: 18px;
+  color: #707070;
+  font-size: 12px;
+}
+
+/* line 1, ../sass/_louti.scss */
+#louti {
+  width: 60px;
+  height: 243px;
+  position: fixed;
+  top: 350px;
+  right: 0px;
+  font-size: 25px;
+}
+/* line 8, ../sass/_louti.scss */
+#louti li:nth-child(1) {
+  border-radius: 5px 0 0 0;
+}
+/* line 11, ../sass/_louti.scss */
+#louti li {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  margin-bottom: 1px;
+  line-height: 60px;
+  color: white;
+  list-style: none;
+  text-align: center;
+}
+/* line 21, ../sass/_louti.scss */
+#louti li img {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+/* line 27, ../sass/_louti.scss */
+#louti li:nth-child(4) {
+  border-radius: 0 0 0 5px;
+}

@@ -1,0 +1,148 @@
+#logodiv {
+    width: 100%;
+    position: relative;
+    // margin: 0 auto;
+    z-index: 1000000;
+    .warp {
+        width: 1349px;
+        margin: 0 auto;
+        .logoleft {
+            float: left;
+        }
+        .logoright {
+            float: left;
+            .top {
+                width: 1249px;
+                height: $height;
+                background: #222222;
+                .oneul {
+                    li {
+                        text-align: center;
+                        float: left;
+                        line-height: $height;
+                        padding: 0 20px;
+                        font-size: $top_fsize;
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                    li:nth-child(1) {
+                        background-color: white;
+                        font-size: $top_fsize;
+                        padding: 0 20px 0 0;
+                        a {
+                            color: #585858;
+                        }
+                    }
+                    li:nth-child(2) {
+                        line-height: $height;
+                        a {
+                            color: white;
+                        }
+                        a:hover {
+                            color: #767676;
+                        }
+                    }
+                    li:nth-child(3) {
+                        font-weight: bold;
+                        a {
+                            color: #ffffff;
+                        }
+                        span {
+                            color: red;
+                        }
+                    }
+                    li:nth-child(3):hover {
+                        span {
+                            color: #d11212;
+                        }
+                        a {
+                            color: #f7cccc;
+                        }
+                    }
+                }
+                .twoul {
+                    li {
+                        padding: 0 20px;
+                        float: right;
+                        line-height: $height;
+                        font-size: $top_fsize;
+                        color: #c7c7c7;
+                    }
+                    li:nth-child(1) {
+                        background-color: #f7f7f7;
+                        color: black;
+                    }
+                    li:nth-child(4):hover {
+                        color: #f7f7f7;
+                    }
+                    li:nth-child(5) {
+                        a {
+                            color: #c7c7c7;
+                        }
+                    }
+                    li:nth-child(5) a:hover {
+                        color: #f7f7f7;
+                    }
+                    li:nth-child(3):hover {
+                        background-color: #f7f7f7;
+                    }
+                    li:nth-child(2):hover {
+                        background-color: #f7f7f7;
+                    }
+                }
+            }
+            .topButtom {
+                background-color: white;
+                width: 1249px;
+                height: $height;
+                border-bottom: 1px solid #f7f7f7;
+                .topleft {
+                    background-color: white;
+                    ul {
+                        // li:nth-child(1) {
+                        //     // padding: 0 25px 5px 0;
+                        // }
+                        li {
+                            float: left;
+                            padding: 0 25px;
+                            line-height: $height;
+                            font-size: $top_fsize+4;
+                            background-color: white;
+                        }
+                        li:hover {
+                            background: #f7f7f7;
+                        }
+                    }
+                }
+                .topright {
+                    border-radius: 3px;
+                    width: 414px;
+                    height: 30px;
+                    float: right;
+                    margin-right: 10px;
+                    background: #e2e2e2;
+                    position: relative;
+                    margin-top: 6px;
+                    div {
+                        span {
+                            position: absolute;
+                            top: 10px;
+                            left: 10px;
+                            font-size: 10px;
+                        }
+                    }
+                    input {
+                        border: none;
+                        background: #e2e2e2;
+                        position: absolute;
+                        top: 6px;
+                        left: 30px;
+                        width: 350px;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}

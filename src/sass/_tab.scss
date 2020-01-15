@@ -1,0 +1,50 @@
+#tab {
+    width: 100%;
+    //                    男士女士切换区域
+    .manorwoman {
+        width: 1140px;
+        height: 60px;
+        margin: 10px auto;
+        ul {
+            width: 350px;
+            height: 60px;
+            margin: 0 auto;
+            li {
+                display: inline;
+                line-height: 60px;
+                color: #767676;
+                font-size: 16px;
+                padding: 0 50px;
+            }
+        }
+    }
+    //                     图片展示区
+    .photo {
+        width: 1140px;
+        margin: 0 auto;
+        .manul {
+            position: relative;
+            display: block;
+            li {
+                float: left;
+                margin: 0 5px;
+                img {
+                    width: 275px;
+                    height: 527px;
+                }
+            }
+        }
+        .womanul {
+            position: relative;
+            display: none;
+            li {
+                float: left;
+                margin: 0 5px;
+                img {
+                    width: 275px;
+                    height: 527px;
+                }
+            }
+        }
+    }
+}
